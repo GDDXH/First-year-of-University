@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C_basis" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACgAAAAAQAABAAEAAgAAAAEAAAAAAA=</HashCode>
+      <FileName>c_basis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoad" Collapsed="true">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CLoad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Contest" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="CLoad">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-2.346" Y="0.412" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="FinalContest">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="1.997" Y="0.433" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="Konckout">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.577" Y="0.414" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABgAAAAAAAAAQABEAAAGAAAAEAAgAAAAJAAA=</HashCode>
+      <FileName>contest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalContest" Collapsed="true">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="Player" ManuallyRouted="true">
+      <Path>
+        <Point X="6.75" Y="1.298" />
+        <Point X="6.75" Y="2.25" />
+        <Point X="9.25" Y="2.25" />
+        <Point X="9.25" Y="3" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-1.034" Y="0.037" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAABAAAAMABAAAAAAQIAAAYAAAIACAAIEABAA=</HashCode>
+      <FileName>finalcontest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Judge" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAKAAAA=</HashCode>
+      <FileName>judge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konckout" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <InheritanceLine Type="C_basis" ManuallyRouted="true">
+      <Path>
+        <Point X="9.25" Y="1.298" />
+        <Point X="9.25" Y="2.25" />
+        <Point X="6.75" Y="2.25" />
+        <Point X="6.75" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="Player">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-1.044" Y="0.058" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAEBAAIAAAAAAAAAABAAAAAAIAAAAAACQAAAAAAA=</HashCode>
+      <FileName>konckout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Load" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAIAIAgAAAAA=</HashCode>
+      <FileName>Load.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAIAAQAAAAAQAAAAABAEEAAAAAQAEAAAAAAA=</HashCode>
+      <FileName>person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAgAQAAABA=</HashCode>
+      <FileName>player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singer" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="Judge">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.404" Y="0.11" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="Student">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.723" Y="0.081" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>FAAACAIAAAAQSAAABIAQwAIAAAEIADCAAAAgACAAgAA=</HashCode>
+      <FileName>singer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingerList" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="SLoad">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.529" Y="0.12" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="Test" FixedFromPoint="true">
+      <Path>
+        <Point X="1.5" Y="4.798" />
+        <Point X="1.5" Y="5.375" />
+        <Point X="3" Y="5.375" />
+        <Point X="3" Y="5.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.815" Y="0.11" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgSCIiAAAAAAABEAAAAAYAACEAAIAAIAAAAA=</HashCode>
+      <FileName>SingerList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SLoad" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAACAABgAAAAAAABAAABAAAA=</HashCode>
+      <FileName>SLoad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAQAAAAAAAAAAAAAAAAAEACAAAAAIAAEABAAA=</HashCode>
+      <FileName>student.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test" Collapsed="true">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAAAoAAAAAAAAAAAQAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>test.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
